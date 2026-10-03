@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bibham Kumar — Light Glass 3D Portfolio</title>
+  <meta name="description"
+    content="Light glass 3D portfolio — About • Qualification • Projects • Internship • Contact" />
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="wrap" id="top">
+    <!-- header -->
+    <header>
+  <div class="brand" role="banner">
+    <div class="logo-badge" aria-hidden="true">BK</div>
+    <div>
+      <div style="font-weight:800">Bibham Kumar</div>
+      <small>Frontend • Full-Stack Developer</small>
+    </div>
+  </div>
+
+  <button id="menuToggle" class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+
+<nav role="navigation" aria-label="Main" id="navbar">
+  <div class="nav-links">
+    <a class="nav-link" href="index.html">Home</a>
+    <a class="nav-link" href="#qualification">Qualification</a>
+    <a class="nav-link" href="#projects">Projects</a>
+    <a class="nav-link" href="#internship">Internship</a>
+    <a class="nav-link" href="#skills">Skills</a>
+    <a class="nav-link" href="#contact">Contact</a>
+  </div>
+</nav>
+</header>
+
+
+    <!-- hero -->
+    <div class="hero">
+      <div class="hero-card" id="home">
+        <span class="eyebrow">Hello — I'm</span>
+        <h1>Bibham Kumar<br><span style="color: rgb(4, 94, 238);" id="element"></span></h1>
+        <p class="lead">I enjoy learning new tools, solving real-world problems through code, and building projects that
+          not only look good but also perform seamlessly. My goal is to grow as a developer, contribute to meaningful
+          projects, and continuously improve my skills in frontend and backend development.</p>
+
+        <div style="display:flex;gap:12px;align-items:center;margin-top:14px;flex-wrap:wrap">
+          <a class="cta-btn" href="#projects">View Projects</a>
+          <a class="nav-link" href="#contact" style="background:transparent;border-radius:10px">Hire / Contact</a>
+          <a class="cta-btn" href="Bibham_Resume.pdf" target="_blank">View Resume</a>
+
+        </div>
+
+        <div style="display:flex;gap:12px;margin-top:18px;align-items:center">
+          <div style="flex:1">
+            <div style="font-weight:800">Location</div>
+            <div class="sub-muted">India, Bihar</div>
+          </div>
+          <div style="flex:1">
+            <div style="font-weight:800">Experience</div>
+            <div class="sub-muted">Fresher</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="profile-stage" aria-hidden="false">
+        <div class="profile-card floaty" id="profileCard" role="img" aria-label="Profile card">
+          <div class="auras">
+            <div class="a1"></div>
+            <div class="a2"></div>
+          </div>
+          <div class="portrait-wrap">
+            <div class="portrait" id="portrait">
+              <!-- placeholder profile; replace profile.jpg with your picture -->
+              <img id="profileImg" src="img.png" alt="Profile — replace with your photo">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Qualification -->
+    <section id="qualification" aria-labelledby="qualTitle">
+      <div class="section-head">
+        <h2 id="qualTitle">Qualification</h2>
+        <div class="sub-muted">Education & certification</div>
+      </div>
+      <div style="overflow:auto">
+        <table class="qual-table" aria-label="Qualifications table">
+          <thead>
+            <tr>
+              <td>Course</td>
+              <td>Board / Institute</td>
+              <td>Passing Year</td>
+              <td>Percentage</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Matric (10th)</strong></td>
+              <td>BSEB, Patna</td>
+              <td>2021</td>
+              <td><span class="pill">83.6%</span></td>
+            </tr>
+            <tr>
+              <td><strong>Intermediate (12th)</strong></td>
+              <td>S.P. Jain College, Sasaram,Rohtas</td>
+              <td>2023</td>
+              <td><span class="pill">69.6%</span></td>
+            </tr>
+            <tr>
+              <td><strong>Diploma in CSE</strong></td>
+              <td>Govt. Polytechnic Bhojpur</td>
+              <td>2026</td>
+              <td><span class="pill">76.84</span></td>
+            </tr>
+            <tr>
+              <td><strong>B.Tech in CSE</strong></td>
+              <td>Sityog Institude Of Technology</td>
+              <td>2029</td>
+              <td><span class="pill">Pursuing</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" aria-labelledby="projectsTitle">
+  <div class="section-head">
+    <h2 id="projectsTitle">Projects</h2>
+    <div class="sub-muted">Featured work with images & links</div>
+  </div>
+
+  <div class="projects-grid" role="list">
+
+     <!-- Project 1 -->
+    <article class="project" role="listitem" tabindex="0" data-id="project1">
+      <div class="thumb">
+        <img src="Hostel_Management.png"
+          alt="Class-Attendance Website screenshot">
+      </div>
+      <div class="meta">
+        <h3>Hostel Management Website</h3>
+        <p class="sub-muted">HTML,CSS,JavaScript,PHP,MYSQL.</p>
+        <div class="links">
+          <button class="link-btn like-btn" data-id="project1">Like (<span class="like-count">0</span>)</button>
+          <a href="#" target="_blank" class="link-btn">🔗 Live</a>
+        </div>
+      </div>
+    </article>
+
+
+    <!-- Project 2 -->
+    <article class="project" role="listitem" tabindex="0" data-id="project1">
+      <div class="thumb">
+        <img src="attendance.jpeg"
+          alt="Class-Attendance Website screenshot">
+      </div>
+      <div class="meta">
+        <h3>Class-Attendance Website</h3>
+        <p class="sub-muted">ReactJS,JavaScript,NodeJS,ExpressJS,MongoDB.</p>
+        <div class="links">
+          <button class="link-btn like-btn" data-id="project1">Like (<span class="like-count">0</span>)</button>
+          <a href="#" target="_blank" class="link-btn">🔗 Live</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Project 3 -->
+    <article class="project" role="listitem" tabindex="0" data-id="project2">
+      <div class="thumb">
+        <img src="e-commerce.jpeg"
+          alt="E-Commerce screenshot">
+      </div>
+      <div class="meta">
+        <h3>E-Commerce Website</h3>
+        <p class="sub-muted">HTML,CSS,JavaScript,NodeJS,MongoDB.</p>
+        <div class="links">
+          <button class="link-btn like-btn" data-id="project2">Like (<span class="like-count">0</span>)</button>
+          <a href="#" target="_blank" class="link-btn">🔗 Live</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Project 4 -->
+    <article class="project" role="listitem" tabindex="0" data-id="project3">
+      <div class="thumb">
+        <img src="voting.jpeg"
+          alt="Voting Portal screenshot">
+      </div>
+      <div class="meta">
+        <h3>Voting Portal</h3>
+        <p class="sub-muted">ReactJS,JavaScript,NodeJS,ExpressJS,MongoDB.</p>
+        <div class="links">
+          <button class="link-btn like-btn" data-id="project3">Like (<span class="like-count">0</span>)</button>
+          <a href="#" target="_blank" class="link-btn">🔗 Live</a>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+    <!-- Internship -->
+    <section id="internship" aria-labelledby="internTitle">
+      <div class="section-head">
+        <h2 id="internTitle">Internships & Workshop</h2>
+        <div class="sub-muted">Experience & Certificates</div>
+      </div>
+
+      <div class="intern-grid">
+        <!-- Internship Card 1 -->
+        <div class="intern-card">
+          <img src="internship.png" alt="Frontend Internship" class="intern-img">
+          <div class="intern-content">
+            <h3>Frontend Intern — Aagaaz Training Centre Pvt. Ltd</h3>
+            <p class="intern-date">25 Sept 2024 – 23 Oct 2024</p>
+            <p>Merged modern web design with responsive layouts for live projects.</p>
+            <p class="tech-stack">HTML • CSS • JavaScript</p>
+          </div>
+        </div>
+
+        <!-- Internship Card 2 -->
+        <div class="intern-card">
+          <img src="workshop.png" alt="Web Developer Internship" class="intern-img">
+          <div class="intern-content">
+            <h3>Web Developer Workshop — INFOCHORD TECHNOLOGIES PVT. LTD.</h3>
+            <p class="intern-date">3rd March 2025 – 8th March 2025 (Grade- A+)</p>
+            <p>Migrated legacy pages to responsive design and built automated tests for core flows.</p>
+            <p class="tech-stack">PHP • MySQL • Bootstrap • JavaScript</p>
+          </div>
+        </div>
+
+        <!-- Internship Card 3 -->
+        <div class="intern-card">
+          <img src="internship 3rd.jpg"
+            alt="Certificate" class="intern-img">
+          <div class="intern-content">
+            <h3>Frontend Intern — Aagaaz Training Centre Pvt. Ltd</h3>
+            <p class="intern-date">25 Sept 2024 – 23 Oct 2024</p>
+            <p>Merged modern web design with responsive layouts for live projects.</p>
+            <p class="tech-stack">HTML • CSS • JavaScript</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Skills -->
+    <section id="skills" aria-labelledby="skillsTitle">
+      <div class="section-head">
+        <h2 id="skillsTitle">Skills & Expertise</h2>
+        <div class="sub-muted">Frontend • Backend • Database • Frameworks</div>
+      </div>
+
+      <div class="skills-grid" aria-hidden="false">
+        <div class="skill-box">
+          <h3>Frontend</h3>
+          <div class="skill">
+            <div class="skill-name"><span>HTML</span><strong>50%</strong></div>
+            <div class="progress">
+              <div class="progress-bar html" data-value="50" style="width:0%"><span>50%</span></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-name"><span>CSS</span><strong>55%</strong></div>
+            <div class="progress">
+              <div class="progress-bar css" data-value="55" style="width:0%"><span>55%</span></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-name"><span>JavaScript</span><strong>60%</strong></div>
+            <div class="progress">
+              <div class="progress-bar js" data-value="60" style="width:0%"><span>60%</span></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-name"><span>ReactJS</span><strong>45%</strong></div>
+            <div class="progress">
+              <div class="progress-bar react" data-value="45" style="width:0%"><span>45%</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <h3>Backend</h3>
+          <div class="skill">
+            <div class="skill-name"><span>NodeJS</span><strong>50%</strong></div>
+            <div class="progress">
+              <div class="progress-bar node" data-value="50" style="width:0%"><span>50%</span></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-name"><span>PHP</span><strong>60%</strong></div>
+            <div class="progress">
+              <div class="progress-bar php" data-value="60" style="width:0%"><span>60%</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <h3>Database</h3>
+          <div class="skill">
+            <div class="skill-name"><span>MySQL</span><strong>65%</strong></div>
+            <div class="progress">
+              <div class="progress-bar mysql" data-value="65" style="width:0%"><span>65%</span></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-name"><span>MongoDB</span><strong>45%</strong></div>
+            <div class="progress">
+              <div class="progress-bar mongo" data-value="45" style="width:0%"><span>45%</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <h3>Frameworks</h3>
+          <div class="skill">
+            <div class="skill-name"><span>Bootstrap</span><strong>70%</strong></div>
+            <div class="progress">
+              <div class="progress-bar bootstrap" data-value="70" style="width:0%"><span>70%</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" aria-labelledby="contactTitle">
+      <div class="section-head">
+        <h2 id="contactTitle">Contact</h2>
+        <div class="sub-muted">Let's connect</div>
+      </div>
+      <div class="contact-grid">
+        <form class="form" id="contactForm" onsubmit="handleSubmit(event)" aria-label="Contact form">
+          <input type="text" id="name" placeholder="Your name" required />
+          <input type="email" id="email" placeholder="Your email" required />
+          <input type="text" id="subject" placeholder="Subject" />
+          <textarea id="message" placeholder="Message" required></textarea>
+          <div style="display:flex;gap:10px;align-items:center">
+            <button class="cta-btn" type="submit">Send Message</button>
+          </div>
+        </form>
+
+        <div
+          style="padding:16px;border-radius:12px;background:linear-gradient(180deg, rgba(255,255,255,0.86), rgba(255,255,255,0.78));border:1px solid rgba(0,0,0,0.04)">
+          <h3 style="margin-top:0">Let's talk</h3>
+          <p class="sub-muted">Looking for frontend & backend help, freelance, or full-time? Send a message — I reply
+            within a few days.</p>
+          <div style="margin-top:12px"><strong>Email</strong>
+            <div class="sub-muted"><a href="https://mail.google.com/mail/u/0/#sent?compose=new"
+                target="_blank">bibhamkumar74@gmail.com</a></div><strong
+              style="display:block;margin-top:8px">Phone</strong>
+            <div class="sub-muted">+91 8092961047</div>
+            <div class="social-row">
+              <a href="https://github.com/BibhamKumar07" target="_blank" class="icon-wrap" title="GitHub">
+                <img src="git.jpeg" alt="GitHub icon">
+              </a>
+              <a href="https://linkedin.com/in/bibham-kumar-3557a932a" target="_blank" class="icon-wrap"
+                title="LinkedIn">
+                <img src="linkedin.jpeg" alt="LinkedIn icon">
+              </a>
+              <a href="https://twitter.com/yourusername" target="_blank" class="icon-wrap" title="Twitter">
+                <img src="twitter.jpeg" alt="Twitter icon">
+              </a>
+              <a href="https://wa.me/qr/EWHCBKUWWCCTJ1" target="_blank" class="icon-wrap" title="WhatsApp">
+                <img src="whatsapp.jpeg" alt="WhatsApp icon">
+              </a>
+            </div>
+
+          </div>
+        </div>
+    </section>
+
+
+    <footer style="text-align:center;color:black;padding:18px 0">© Portfolio <span id="year"></span> created 'Bibham
+      Kumar'</footer>
+  </div>
+
+  <!-- mobile nav container -->
+  <div id="mobileNav" class="mobile-nav" aria-hidden="true"
+    style="position:fixed;right:18px;top:74px;width:260px;padding:12px;border-radius:12px;background:linear-gradient(180deg,rgba(255,255,255,0.98),rgba(255,255,255,0.95));border:1px solid rgba(0,0,0,0.04);box-shadow:0 30px 60px rgba(3,10,18,0.06);display:none;z-index:1300">
+  </div>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
